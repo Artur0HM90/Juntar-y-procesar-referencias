@@ -2,12 +2,12 @@
 .DS_Store
 **/.DS_Store
 
-#Carpeta de reportes
-reportes/
-**/reportes/
+# Ignorar TODOS los Excel en todo el proyecto
+*.xlsx
+*.xls
 
-# Ignorar Excel dentro de reportes
-reportes/*.xlsx
-
-# Ignorar archivos temporales de Excel
+# Ignorar temporales de Excel
 ~$*.xlsx
+
+# Permitir carpeta reportes
+!reportes/.gitkeep
