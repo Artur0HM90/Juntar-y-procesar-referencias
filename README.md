@@ -57,6 +57,4 @@ Ingrese el nombre del archivo Excel: archivo_entrada.xlsx
 
 El script generará el archivo de salida:
 
-```bash
-solo_referenciassssssss.xlsx
-```
+**_solo_referenciassssssss.xlsx_**
