@@ -20,10 +20,43 @@ python --version
 python3 --version
 ```
 
-````bash
+### 2. Librerías necesarias
+
+El script utiliza las siguientes librerías externas:
+
+- pandas → manipulación y procesamiento de datos
+- openpyxl → lectura y escritura de archivos Excel (.xlsx)
+
+Instalación:
+
+```bash
 pip install pandas openpyxl
 ```
 
+o, según el sistema:
+
 ```bash
 pip3 install pandas openpyxl
-````
+```
+
+### 3. Ejecución del script
+
+- Coloca el archivo Excel de entrada en la misma carpeta del script.
+
+- Ejecuta el script:
+
+```bash
+python procesando_datos.py
+```
+
+- Ingresa el nombre del archivo cuando el programa lo solicite:
+
+```bash
+Ingrese el nombre del archivo Excel: archivo_entrada.xlsx
+```
+
+El script generará el archivo de salida:
+
+```bash
+solo_referenciassssssss.xlsx
+```
