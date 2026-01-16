@@ -6,3 +6,8 @@
 reportes/
 **/reportes/
 
+# Ignorar Excel dentro de reportes
+reportes/*.xlsx
+
+# Ignorar archivos temporales de Excel
+~$*.xlsx
