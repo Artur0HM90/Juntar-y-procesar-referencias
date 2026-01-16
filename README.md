@@ -14,10 +14,16 @@ Verifica tu versión con:
 
 ```bash
 python --version
+```
 
+```bash
 python3 --version
 ```
 
+````bash
 pip install pandas openpyxl
+```
 
+```bash
 pip3 install pandas openpyxl
+````
